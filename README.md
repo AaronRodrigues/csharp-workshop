@@ -1,6 +1,6 @@
 # C# Workshop
 
-This Api gives determines the winner of superheroes battling supervillains. 
+This Api determines the winner of superheroes battling supervillains. 
 
 The characters and their stats are stored in a json file stored here - https://jsonkeeper.com/b/X95Y
 

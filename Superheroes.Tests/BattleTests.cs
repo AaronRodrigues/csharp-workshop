@@ -10,6 +10,7 @@ using Newtonsoft.Json.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using NUnit.Framework;
 using Superheroes.Controllers;
+using Superheroes.Services;
 
 namespace Superheroes.Tests
 {

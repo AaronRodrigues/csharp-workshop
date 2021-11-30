@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Superheroes.Services;
 
 namespace Superheroes.Controllers
 {

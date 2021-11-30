@@ -5,6 +5,7 @@ using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
 using Superheroes.Controllers;
+using Superheroes.Services;
 
 namespace Superheroes.Tests
 {

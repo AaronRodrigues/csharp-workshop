@@ -1,7 +1,9 @@
 using System;
 using System.Threading.Tasks;
+using Superheroes.Controllers;
+using Superheroes.Models;
 
-namespace Superheroes.Controllers
+namespace Superheroes.Services
 {
     public class BattleService : IBattleService
     {
@@ -41,15 +43,5 @@ namespace Superheroes.Controllers
 
             return battle.Villain;
         }
-    }
-    public class Battle
-    {
-        public CharacterResponse Hero { get; set; }
-        public CharacterResponse Villain { get; set; }
-    }
-
-    public interface IBattleService
-    {
-        public Task<CharacterResponse> Battle(string hero, string villain);
     }
 }
